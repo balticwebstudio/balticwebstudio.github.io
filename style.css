@@ -3890,11 +3890,6 @@ h1.text-primary, h2.text-primary, h3.text-primary, h4.text-primary, p.text-prima
     color: #333
 }
 
-@media only screen and (max-width:991px) {
-    header {
-        display: none
-    }
-}
 
 @media (min-width:768px) {
     .mobile-menu-area {
