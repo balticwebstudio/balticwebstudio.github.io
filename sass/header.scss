@@ -542,6 +542,12 @@ Project: O’Connor HTML Template
 /*============================================
 //  Responsive:
 */
+@media only screen and (min-width: 1401px) {
+	.main-nav .main-nav__list > li a {
+		font-size: 16px;
+	}
+}
+
 @media only screen and (max-width: 1400px) {
 	/*// Page title //*/
 	.page-header--02 .page-subtitle::before,
@@ -566,6 +572,9 @@ Project: O’Connor HTML Template
 		width: 40px;
 		left: -53px;
 	}
+	.main-nav .main-nav__list > li a {
+		font-size: 14px;
+	}
 }
 
 @media only screen and (max-width: 1261px) {
@@ -575,6 +584,9 @@ Project: O’Connor HTML Template
 
 	.logo-img a {
 		padding: 4px 0 0;
+	}
+	.main-nav .main-nav__list > li a {
+		font-size: 14px;
 	}
 }
 
@@ -849,6 +861,14 @@ Project: O’Connor HTML Template
 	height: 100%;
 	content: "";
 	vertical-align: middle;
+}
+.number_container {
+	position: relative;
+	z-index: 1;
+	vertical-align: middle;
+	color: white;
+	text-align: right;
+	padding-right: 30px;
 }
 .logo_container {
 	position: relative;
