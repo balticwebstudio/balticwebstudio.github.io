@@ -41,17 +41,19 @@
     jQuery(win).load(function () { });
     let topLogo = $('.top_header').find('> .logo_container')
     let midLogo = $('.logo-onscroll')
+    if ($(window).width() > 991) {
 
-    $(window).on("scroll", function () {
-        if ($(window).scrollTop() > 50) {
-            // topLogo.hide()
-            midLogo.attr('style', 'display: block !important')
-        }
-        else {
-            // topLogo.css('display', 'block')
-            midLogo.attr('style', 'display: none !important')
-        }
-    });
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 50) {
+                // topLogo.hide()
+                midLogo.attr('style', 'display: block !important')
+            }
+            else {
+                // topLogo.css('display', 'block')
+                midLogo.attr('style', 'display: none !important')
+            }
+        });
+    }
 
 
 }(jQuery));
