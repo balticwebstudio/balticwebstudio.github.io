@@ -588,7 +588,7 @@ Project: O’Connor HTML Template
 	}
 
 	.main-nav .main-nav__list > li a {
-		font-size: 18px;
+		font-size: 14px;
 	}
 
 	.page-header {
@@ -1078,4 +1078,40 @@ p.header_phone {
 			}
 		}
 	}
+}
+
+.nav-container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width:576px) {
+	.nav-container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width:768px) {
+	.nav-container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width:992px) {
+	.nav-container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width:1200px) {
+	.nav-container {
+		max-width: 1200px;
+	}
+}
+
+.img-icon>img {
+		max-width: 100%;
 }
