@@ -2,7 +2,7 @@
 
     "use strict";
 
-    // Document ready function 
+    // Document ready function
     $(function () {
 
         /* Fixing for hover effect at IOS */
@@ -195,7 +195,7 @@
      -------------------------------------*/
     var contactForm = $('#contact-form');
     if (contactForm.length) {
-        contactForm.validator().on('submit', function (e) {
+        contactForm.on('submit', function (e) {
             var _this = $(this),
                 target = contactForm.find('.form-response');
             if (e.isDefaultPrevented()) {
@@ -313,7 +313,7 @@
     });
 
     /*-------------------------------------
-    Onepage Nav 
+    Onepage Nav
     -------------------------------------*/
     $(window).on('load', function () {
         // Onepage Nav on meanmenu
