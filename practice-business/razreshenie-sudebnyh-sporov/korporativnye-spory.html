@@ -53,6 +53,8 @@
     <link rel="stylesheet" href="../../style.css">
     <!-- Modernizr Js -->
     <script src="../../js/modernizr-2.8.3.min.js"></script>
+    <!--  Navbar New  -->
+    <link rel="stylesheet" href="/css/header.min.css">
 </head>
 
 <body>
@@ -66,60 +68,105 @@
     <!-- Main Body Area Start Here -->
     <div id="wrapper" class="wrapper">
         <!-- Header Area Start Here -->
-        <header class="header">
-            <div id="header-three" class="header-style-one header-fixed">
-                <div class="header-top-bar bg-primary">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 hidden--xs">
-                                <div class="header-contact-info">
-                                    <ul>
-                                        <li>Время работы:<span> пн-пт 08:00-19:00</span></li>
-                                        <li><i class="fa fa-phone" aria-hidden="true"></i>8(921)006-82-88</li>
-                                        <li><i class="fa fa-location-arrow" aria-hidden="true"></i>Калининград, ул. Ростовская, 5-7
-                                        </li>
-                                    </ul>
+        <header class="wrapp-header wrapp-header--01">
+            <div class="top_header">
+                <div class="container nav-container">
+                    <div class="top_left_part header_side left">
+                        <div class="header_side_container">
+                            <div class="logo_container">
+                                <a href="index.html">
+                                    <img src="/img/logo.svg" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top_right_part header_side right">
+                        <div class="header_side_container">
+                            <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
+                            <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
+                            <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
+                            <div class="gt3_header_builder_component gt3_header_builder_text_component">
+                                <div class="gt3_header_builder_component gt3_header_builder_empty_space_component">
                                 </div>
+                                <div class="gt3_header_builder_component gt3_header_builder_empty_space_component">
+                                </div>
+                            </div>
+                            <div class="gt3_header_builder_component gt3_header_builder_text_component">
+                                <p class="header_phone">+ 7 921 006 8288</p>
+                            </div>
+                            <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
+                            <div class="gt3_header_builder_component gt3_header_builder_text_component">
+                                <p class="header_icon img-icon"><img src="img/icon_watch.png" alt=""></p>
+                                <p class="header_text">ПН-ПТ: 08:00 – 19:00<br>СБ-ВС: выходной</p>
+                            </div>
+                            <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
+                            <div class="gt3_header_builder_component gt3_header_builder_text_component">
+                                <p class="header_icon img-icon"><img src="img/icon_location.png" alt=""></p>
+                                <p class="header_text">г. Калининград,<br>ул. Ростовская, д.5-7, оф.9</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="main-menu-area bg-body" id="sticker">
-                    <div class="container">
-                        <div class="row d-md-flex align-items-md-center">
-                            <div class="col-lg-2 col-md-2">
-                                <div class="logo-area">
-                                    <a href="/index.html"><img src="/img/logo.png" alt="logo" class="img-responsive"></a>
-                                </div>
+            </div>
+
+            <div id="sticky-wrapper" class="sticky-wrapper">
+                <div class="header-content middle_header">
+                    <div class="container nav-container">
+                        <div class="logo_container">
+                            <a href="index.html">
+                                <img src="/img/logo-light.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div>
+                            <div class="logo-onscroll number_container">
+                                <p class="header_phone" style="color: white;">+ 7 921 006 8288</p>
                             </div>
-                            <div class="col-lg-10 col-md-10">
-                                <nav>
-                                    <ul>
-                                        <li><a href="/index.html">Главная</a>
+                            <div class="header-content-block">
+                                <nav class="main-nav">
+                                    <div class="main-nav__btn-wrapp">
+                                        <div class="main-nav__btn">
+                                            <div class="icon-left"></div>
+                                            <div class="icon-right"></div>
+                                        </div>
+                                    </div>
+                                    <ul class="main-nav__list sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+                                        <li class="menu-item current-menu-ancestor">
+                                            <a href="/index.html">Главная</a>
                                         </li>
-                                        <li><a href="/about.html">О компании</a></li>
-                                        <li><a href="/practice-business.html">Услуги бизнесу</a>
-                                            <ul>
+                                        <li class="menu-item">
+                                            <a href="/about.html">О компании</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="/practice-business.html" class="sf-with-ul">Услуги бизнесу</a>
+                                            <ul style="display: none;">
                                                 <li><a href="/practice-business/soprovozhdenie-i-vedenie-biznesa.html">Комплексное
                                                         сопровождение</a></li>
-                                                <li class="has-child-menu"><a href="/practice-business/razreshenie-sudebnyh-sporov.html">Разрешение
+                                                <li><a href="/practice-business/razreshenie-sudebnyh-sporov.html">Разрешение
                                                         судебных споров</a>
-                                                    <ul class="thired-level">
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/spory-v-sfere-stroitelstva.html">Строительство
+                                                    <ul style="display: none;">
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/spory-v-sfere-stroitelstva.html">Строительство
                                                                 и недвижимость</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/spory-iz-dogovorov.html">Вытекающие
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/spory-iz-dogovorov.html">Вытекающие
                                                                 из договоров</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/korporativnye-spory.html">Корпоративные</a>
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/korporativnye-spory.html">Корпоративные</a>
                                                         </li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/osparivanie-resheniy-organov.html">Оспаривание
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/osparivanie-resheniy-organov.html">Оспаривание
                                                                 решение административных
                                                                 органов</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/finansovye-i-bankovskie-spory.html">Финансовая
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/finansovye-i-bankovskie-spory.html">Финансовая
                                                                 и банковская сферы</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/bankrotsvtvo-ur-lic.html">Банкротство</a>
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/bankrotsvtvo-ur-lic.html">Банкротство</a>
                                                         </li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov.html">Иные
-                                                                споры</a></li>
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov.html">Иные
+                                                                споры</a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="/practice-business/sozdania-i-registracia-kompanii.html">Создание
@@ -128,20 +175,25 @@
                                                         сделок</a></li>
                                                 <li><a href="/practice-business/vzyskanie-zadolzhenosti.html">Взыскание
                                                         задолженности</a></li>
-                                                <li><a href="/practice-business/soprovozhdenie-inostrannyh-investiciy.html">Сопровождение
+                                                <li><a
+                                                        href="/practice-business/soprovozhdenie-inostrannyh-investiciy.html">Сопровождение
                                                         иностранных инвестиций</a></li>
-                                                <li><a href="/practice-business/yuridicheskie-i-buhgalterskie-konsultacii.html">Юридические
+                                                <li><a
+                                                        href="/practice-business/yuridicheskie-i-buhgalterskie-konsultacii.html">Юридические
                                                         и бухгалтерские консультации</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/practice-clients.html">Услуги частным клиентам</a>
-                                            <ul>
-                                                <li class="has-child-menu"><a href="/practice-clients/zashita-interesov-v-sude.html">Защита
+                                        <li class="menu-item">
+                                            <a href="/practice-business.html" class="sf-with-ul">Услуги частным
+                                                клиентам</a>
+                                            <ul style="display: none;">
+                                                <li><a href="/practice-clients/zashita-interesov-v-sude.html">Защита
                                                         интересов в суде</a>
-                                                    <ul class="thired-level">
+                                                    <ul style="display: none;">
                                                         <li><a href="/practice-clients/zashita-prav-dolshikov.html">Защита
                                                                 прав дольщиков</a></li>
-                                                        <li><a href="/practice-clients/spory-po-zashite-prav-potrebiteley.html">Защита
+                                                        <li><a
+                                                                href="/practice-clients/spory-po-zashite-prav-potrebiteley.html">Защита
                                                                 прав потребителей</a></li>
                                                         <li><a href="/practice-clients/zashita-interesov-v-sude.html">Иные
                                                                 споры</a></li>
@@ -151,7 +203,8 @@
                                                         автоюриста</a></li>
                                                 <li><a href="/practice-clients/semeynye-i-nasledstvennue-dela.html">Семейные
                                                         и наследственные дела</a></li>
-                                                <li><a href="/practice-clients/soprovozhdenie-sdelok-s-nedvizhimostyu.html">Сопровождение
+                                                <li><a
+                                                        href="/practice-clients/soprovozhdenie-sdelok-s-nedvizhimostyu.html">Сопровождение
                                                         сделок с недвижимостью</a>
                                                 </li>
                                                 <li><a href="/practice-clients/trudovie-spory.html">Трудовые споры</a>
@@ -160,104 +213,32 @@
                                                         и бухгалтерские консультации</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/clients.html">Клиенты</a></li>
-                                        <li><a href="/practices.html">Опыт</a></li>
+                                        <li class="menu-item">
+                                            <a href="/clients.html">Клиенты</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="/practices.html">Опыт</a>
+                                        </li>
                                         <li><a href="/contact.html">Контакты</a></li>
+                                        <!-- <span class="menu_item_line" style="width: 68px; left: 0px;"></span> -->
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Mobile Menu Area Start -->
-            <div class="mobile-menu-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mobile-menu">
-                                <nav id="dropdown">
-                                    <ul>
-                                        <li><a href="/index.html">Главная</a>
-                                        </li>
-                                        <li><a href="/about.html">О компании</a></li>
-                                        <li><a href="/practice-business.html">Услуги бизнесу</a>
-                                            <ul>
-                                                <li><a href="/practice-business/soprovozhdenie-i-vedenie-biznesa.html">Комплексное
-                                                        сопровождение</a></li>
-                                                <li class="has-child-menu"><a href="/practice-business/razreshenie-sudebnyh-sporov.html">Разрешение
-                                                        судебных споров</a>
-                                                    <ul class="thired-level">
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/spory-v-sfere-stroitelstva.html">Строительство
-                                                                и недвижимость</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/spory-iz-dogovorov.html">Вытекающие
-                                                                из договоров</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/korporativnye-spory.html">Корпоративные</a>
-                                                        </li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/osparivanie-resheniy-organov.html">Оспаривание
-                                                                решение административных
-                                                                органов</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/finansovye-i-bankovskie-spory.html">Финансовая
-                                                                и банковская сферы</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/bankrotsvtvo-ur-lic.html">Банкротство</a>
-                                                        </li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov.html">Иные
-                                                                споры</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="/practice-business/sozdania-i-registracia-kompanii.html">Создание
-                                                        и регистрация компаний</a></li>
-                                                <li><a href="/practice-business/soprovozhdenie-sdelok.html">Сопровождение
-                                                        сделок</a></li>
-                                                <li><a href="/practice-business/vzyskanie-zadolzhenosti.html">Взыскание
-                                                        задолженности</a></li>
-                                                <li><a href="/practice-business/soprovozhdenie-inostrannyh-investiciy.html">Сопровождение
-                                                        иностранных инвестиций</a></li>
-                                                <li><a href="/practice-business/yuridicheskie-i-buhgalterskie-konsultacii.html">Юридические
-                                                        и бухгалтерские консультации</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="/practice-clients.html">Услуги частным клиентам</a>
-                                            <ul>
-                                                <li class="has-child-menu"><a href="/practice-clients/zashita-interesov-v-sude.html">Защита
-                                                        интересов в суде</a>
-                                                    <ul class="thired-level">
-                                                        <li><a href="/practice-clients/zashita-prav-dolshikov.html">Защита
-                                                                прав дольщиков</a></li>
-                                                        <li><a href="/practice-clients/spory-po-zashite-prav-potrebiteley.html">Защита
-                                                                прав потребителей</a></li>
-                                                        <li><a href="/practice-clients/zashita-interesov-v-sude.html">Иные
-                                                                споры</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="/practice-clients/uslugi-avtoyurista.html">Услуги
-                                                        автоюриста</a></li>
-                                                <li><a href="/practice-clients/semeynye-i-nasledstvennue-dela.html">Семейные
-                                                        и наследственные дела</a></li>
-                                                <li><a href="/practice-clients/soprovozhdenie-sdelok-s-nedvizhimostyu.html">Сопровождение
-                                                        сделок с недвижимостью</a>
-                                                </li>
-                                                <li><a href="/practice-clients/trudovie-spory.html">Трудовые споры</a>
-                                                </li>
-                                                <li><a href="/practice-clients/yur-i-buhgalterskie-konsultacii.html">Юридические
-                                                        и бухгалтерские консультации</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="/clients.html">Клиенты</a></li>
-                                        <li><a href="/practices.html">Опыт</a></li>
-                                        <li><a href="/contact.html">Контакты</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
+
+                        <div class="logo_container logo-onscroll">
+                            <a href="index.html">
+                                <img src="/img/logo-light.svg" alt="logo">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Mobile Menu Area End -->
         </header>
         <!-- Header Area End Here -->
         <!-- Inner Page Banner Area Start Here -->
-        <section class="inner-page-banner-area mt-150" style="background-image: url('../../img/banner/inner-page-banner.jpg');">
+        <section class="inner-page-banner-area"
+            style="background-image: url('../../img/banner/inner-page-banner.jpg');">
             <div class="container">
                 <div class="breadcrumbs-area">
                     <h1>Корпоративные споры</h1>
@@ -271,26 +252,40 @@
                 <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                         <div class="practice-details-wrapper">
-                            <img src="../../img/practice-business/korp-spory.jpg" alt="Разрешение корпоративных споров в Калининграде" class="img-responsive">
+                            <img src="../../img/practice-business/korp-spory.jpg"
+                                alt="Разрешение корпоративных споров в Калининграде" class="img-responsive">
                             <h2>Разрешение корпоративных споров</h2>
                             <div class="box-padding bg-body mb--xs">
-                                <p>Чем крупнее бизнес, тем сложнее отношения внутри компании. Интересы владельцев компании не всегда совпадают, а иногда остриями разворачиваются друг к другу. Бывает, что в вопросах управления участники бизнеса напоминают
-                                    героев басни «Лебедь, рак и щука». Наёмный топ-менеджмент попадает под перекрестный огонь, а иногда и сам пытается вести свою игру.
+                                <p>Чем крупнее бизнес, тем сложнее отношения внутри компании. Интересы владельцев
+                                    компании не всегда совпадают, а иногда остриями разворачиваются друг к другу.
+                                    Бывает, что в вопросах управления участники бизнеса напоминают
+                                    героев басни «Лебедь, рак и щука». Наёмный топ-менеджмент попадает под перекрестный
+                                    огонь, а иногда и сам пытается вести свою игру.
                                 </p>
                                 <p>
-                                    Как юридическая категория корпоративный спор в законодательстве не выделяется. Такой спор относится к числу экономических и рассматривается в арбитражном суде так же, как и конфликты, возникающие между предприятиями. Тем не менее, в теории и практике
+                                    Как юридическая категория корпоративный спор в законодательстве не выделяется. Такой
+                                    спор относится к числу экономических и рассматривается в арбитражном суде так же,
+                                    как и конфликты, возникающие между предприятиями. Тем не менее, в теории и практике
                                     юриспруденции учитываются особенности данного вида конфликтов.
                                 </p>
-                                <h3 class="title-medium-dark size-sm">Компания «Право и Бизнес» осуществляет услуги по разрешению споров в корпоративной сфере в Калининграде:</h3>
+                                <h3 class="title-medium-dark size-sm">Компания «Право и Бизнес» осуществляет услуги по
+                                    разрешению споров в корпоративной сфере в Калининграде:</h3>
                                 <ul class="about-info-list">
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Сопровождение корпоративных конфликтов и защита от недружественных поглощений;</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Восстановление корпоративного контроля;
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Сопровождение корпоративных
+                                        конфликтов и защита от недружественных поглощений;</li>
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Восстановление корпоративного
+                                        контроля;
                                     </li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Ведение дел, связанных с направлением обязательного предложения или принудительным выкупом пакетов акций миноритарных акционеров;</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Оспаривание решений органов управления;
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Ведение дел, связанных с
+                                        направлением обязательного предложения или принудительным выкупом пакетов акций
+                                        миноритарных акционеров;</li>
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Оспаривание решений органов
+                                        управления;
                                     </li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Оспаривание сделок по корпоративным основаниям;</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Взыскание убытков с органов управления;
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Оспаривание сделок по
+                                        корпоративным основаниям;</li>
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Взыскание убытков с органов
+                                        управления;
                                     </li>
                                     <li><i class="fa fa-check" aria-hidden="true"></i>истребование документов.</li>
                                 </ul>
@@ -336,7 +331,8 @@
                 <div class="section-title-dark">
                     <h2><span>Выигранные</span> дела</h2>
                     <span><i class="fa fa-circle-o" aria-hidden="true"></i></span>
-                    <p>С 2014 года мы помогаем нашим клиентам выигрывая даже самые сложные дела. Мы уверены - любая проблема имеет решение. Также мы всегда определяем
+                    <p>С 2014 года мы помогаем нашим клиентам выигрывая даже самые сложные дела. Мы уверены - любая
+                        проблема имеет решение. Также мы всегда определяем
                         <strong>перспективу выигрыша вашего дела</strong> до заключения договора
                         <strong>бесплатно</strong>.</p>
                 </div>
@@ -345,12 +341,14 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 mb--sm">
                         <ul class="tab-nav-vertical">
-                            <li class="active"><a href="#six" data-toggle="tab" aria-expanded="false" style="font-size: 14px;">Взыскать
+                            <li class="active"><a href="#six" data-toggle="tab" aria-expanded="false"
+                                    style="font-size: 14px;">Взыскать
                                     с директора
                                     убытки
                                     13,3 млн. рублей
                                 </a></li>
-                            <li><a href="#seven" data-toggle="tab" aria-expanded="false" style="font-size: 14px;">Оспорить сделки по
+                            <li><a href="#seven" data-toggle="tab" aria-expanded="false"
+                                    style="font-size: 14px;">Оспорить сделки по
                                     выводу активов Общества
                                     на 36 млн. рублей
                                 </a>
@@ -364,21 +362,36 @@
                                     <h3>Взыскать с директора убытки 13,3 млн. рублей.</h3>
                                     <ul class="about-info-list">
                                         <li><i class="fa fa-flag" aria-hidden="true"></i>
-                                            <p style="margin-bottom: 5px;"><strong>ЦЕЛЬ:</strong> взыскать с ранее занимавшего должность директора причиненные обществу убытки в размере 13, 3 млн. рублей.</p>
+                                            <p style="margin-bottom: 5px;"><strong>ЦЕЛЬ:</strong> взыскать с ранее
+                                                занимавшего должность директора причиненные обществу убытки в размере
+                                                13, 3 млн. рублей.</p>
                                         </li>
                                         <li><i class="fa fa-balance-scale" aria-hidden="true"></i>
-                                            <p style="margin-bottom: 5px;"><strong>СУТЬ:</strong> наемный директор для получения собственного дополнительного дохода фиктивно трудоустроил в компанию ряд лиц, фактически не осуществляющих трудовую деятельность – «Мертвые души».</p>
+                                            <p style="margin-bottom: 5px;"><strong>СУТЬ:</strong> наемный директор для
+                                                получения собственного дополнительного дохода фиктивно трудоустроил в
+                                                компанию ряд лиц, фактически не осуществляющих трудовую деятельность –
+                                                «Мертвые души».</p>
                                         </li>
                                         <li><i class="fa fa-file" aria-hidden="true"></i>
-                                            <p style="margin-bottom: 5px;"><strong>ОСЛОЖНЕНИЕ СПОРА:</strong> ответчик - иностранный гражданин, применяется нормы международного права, межгосударственные соглашения. Большой объем необходимых к получению и сбору доказательств.</p>
+                                            <p style="margin-bottom: 5px;"><strong>ОСЛОЖНЕНИЕ СПОРА:</strong> ответчик -
+                                                иностранный гражданин, применяется нормы международного права,
+                                                межгосударственные соглашения. Большой объем необходимых к получению и
+                                                сбору доказательств.</p>
                                         </li>
                                         <li><i class="fa fa-gavel" aria-hidden="true"></i>
-                                            <p style="margin-bottom: 5px;"><strong>ПРОДЕЛАННАЯ РАБОТА:</strong> применены нормы международного законодательства, соблюдены процессуальные особенности рассмотрения споров, осложненных иностранным элементом. Собрано и представлено множество
-                                                доказательств, допрошено большое количество свидетелей, запрошены доказательства из различных гос. органов. Помимо судебного разбирательства инициирована проверка органами прокуратуры и полиции.
+                                            <p style="margin-bottom: 5px;"><strong>ПРОДЕЛАННАЯ РАБОТА:</strong>
+                                                применены нормы международного законодательства, соблюдены
+                                                процессуальные особенности рассмотрения споров, осложненных иностранным
+                                                элементом. Собрано и представлено множество
+                                                доказательств, допрошено большое количество свидетелей, запрошены
+                                                доказательства из различных гос. органов. Помимо судебного
+                                                разбирательства инициирована проверка органами прокуратуры и полиции.
                                             </p>
                                         </li>
                                         <li><i class="fa fa-check" aria-hidden="true"></i>
-                                            <p style="margin-bottom: 5px;"><strong>РЕЗУЛЬТАТ:</strong> дело рассмотрено в судах всех инстанций. В пользу Доверителя взысканы причиненные убытки в размере 13, 3 млн. рублей.
+                                            <p style="margin-bottom: 5px;"><strong>РЕЗУЛЬТАТ:</strong> дело рассмотрено
+                                                в судах всех инстанций. В пользу Доверителя взысканы причиненные убытки
+                                                в размере 13, 3 млн. рублей.
                                             </p>
                                         </li>
                                     </ul>
@@ -389,21 +402,33 @@
                                     <h3>Оспорить сделки по выводу активов Общества на 36 млн. рублей.</h3>
                                     <ul class="about-info-list">
                                         <li><i class="fa fa-flag" aria-hidden="true"></i>
-                                            <p style="margin-bottom: 5px;"><strong>ЦЕЛЬ:</strong> признать сделки недействительными и взыскать 36 млн. рублей.</p>
+                                            <p style="margin-bottom: 5px;"><strong>ЦЕЛЬ:</strong> признать сделки
+                                                недействительными и взыскать 36 млн. рублей.</p>
                                         </li>
                                         <li><i class="fa fa-balance-scale" aria-hidden="true"></i>
-                                            <p style="margin-bottom: 5px;"><strong>СУТЬ:</strong> прежний генеральный директор поочередно заключил ряд мнимых сделок (сделок совершенных «для вида») и вывел активы общества на сумму 36 млн. рублей.</p>
+                                            <p style="margin-bottom: 5px;"><strong>СУТЬ:</strong> прежний генеральный
+                                                директор поочередно заключил ряд мнимых сделок (сделок совершенных «для
+                                                вида») и вывел активы общества на сумму 36 млн. рублей.</p>
                                         </li>
                                         <li><i class="fa fa-file" aria-hidden="true"></i>
-                                            <p style="margin-bottom: 5px;"><strong>ОСЛОЖНЕНИЕ СПОРА:</strong> оппонентом в суд представлены первичные документы, подтверждена коммерческая деятельность, ответчик представлял новые доказательства, подтверждающие реальность сделки.</p>
+                                            <p style="margin-bottom: 5px;"><strong>ОСЛОЖНЕНИЕ СПОРА:</strong> оппонентом
+                                                в суд представлены первичные документы, подтверждена коммерческая
+                                                деятельность, ответчик представлял новые доказательства, подтверждающие
+                                                реальность сделки.</p>
                                         </li>
                                         <li><i class="fa fa-gavel" aria-hidden="true"></i>
-                                            <p style="margin-bottom: 5px;"><strong>ПРОДЕЛАННАЯ РАБОТА:</strong> проведен полный юридический и финансовый аудит деятельности компании, в т.ч. по спорным сделкам. Инициировано несколько дополнительных судебных споров, в совокупности найдены
+                                            <p style="margin-bottom: 5px;"><strong>ПРОДЕЛАННАЯ РАБОТА:</strong> проведен
+                                                полный юридический и финансовый аудит деятельности компании, в т.ч. по
+                                                спорным сделкам. Инициировано несколько дополнительных судебных споров,
+                                                в совокупности найдены
                                                 и представлены доказательства, свидетельствующие о мнимости сделки.
                                             </p>
                                         </li>
                                         <li><i class="fa fa-check" aria-hidden="true"></i>
-                                            <p style="margin-bottom: 5px;"><strong>РЕЗУЛЬТАТ:</strong> активы Общества были возвращены в полном объеме. Сделка была признана судом недействительной и в пользу Доверителя взысканы денежные средства в размере 36 млн. рублей.
+                                            <p style="margin-bottom: 5px;"><strong>РЕЗУЛЬТАТ:</strong> активы Общества
+                                                были возвращены в полном объеме. Сделка была признана судом
+                                                недействительной и в пользу Доверителя взысканы денежные средства в
+                                                размере 36 млн. рублей.
 
                                             </p>
                                         </li>
@@ -471,7 +496,8 @@
                                                         сделок</a></li>
                                                 <li><a href="/practice-business/vzyskanie-zadolzhenosti.html">Взыскание
                                                         задолженности</a></li>
-                                                <li><a href="/practice-business/soprovozhdenie-inostrannyh-investiciy.html">Сопровождение
+                                                <li><a
+                                                        href="/practice-business/soprovozhdenie-inostrannyh-investiciy.html">Сопровождение
                                                         иностранных инвестиций</a></li>
                                             </ul>
                                         </li>
@@ -488,7 +514,8 @@
                                                         автоюриста</a></li>
                                                 <li><a href="/practice-clients/semeynye-i-nasledstvennue-dela.html">Семейные
                                                         и наследственные дела</a></li>
-                                                <li><a href="/practice-clients/soprovozhdenie-sdelok-s-nedvizhimostyu.html">Сопровождение
+                                                <li><a
+                                                        href="/practice-clients/soprovozhdenie-sdelok-s-nedvizhimostyu.html">Сопровождение
                                                         сделок</a>
                                                 </li>
                                                 <li><a href="/practice-clients/trudovie-spory.html">Трудовые споры</a>
@@ -541,6 +568,10 @@
     <script src="../../js/jquery.magnific-popup.min.js" type="text/javascript"></script>
     <!-- Custom Js -->
     <script src="../../js/main.js" type="text/javascript"></script>
+    <!-- Navbar New -->
+    <script src="/js/jquery.superfish.min.js"></script>
+    <script src="/js/jquery.sticky.min.js"></script>
+    <script src="/js/header.js"></script>
 </body>
 
 </html>

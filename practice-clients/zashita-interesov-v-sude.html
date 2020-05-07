@@ -53,6 +53,8 @@
     <link rel="stylesheet" href="../style.css">
     <!-- Modernizr Js -->
     <script src="../js/modernizr-2.8.3.min.js"></script>
+    <!--  Navbar New  -->
+    <link rel="stylesheet" href="/css/header.min.css">
 </head>
 
 <body>
@@ -66,60 +68,105 @@
     <!-- Main Body Area Start Here -->
     <div id="wrapper" class="wrapper">
         <!-- Header Area Start Here -->
-        <header class="header">
-            <div id="header-three" class="header-style-one header-fixed">
-                <div class="header-top-bar bg-primary">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 hidden--xs">
-                                <div class="header-contact-info">
-                                    <ul>
-                                        <li>Время работы:<span> пн-пт 08:00-19:00</span></li>
-                                        <li><i class="fa fa-phone" aria-hidden="true"></i>8(921)006-82-88</li>
-                                        <li><i class="fa fa-location-arrow" aria-hidden="true"></i>Калининград, ул. Ростовская, 5-7
-                                        </li>
-                                    </ul>
+        <header class="wrapp-header wrapp-header--01">
+            <div class="top_header">
+                <div class="container nav-container">
+                    <div class="top_left_part header_side left">
+                        <div class="header_side_container">
+                            <div class="logo_container">
+                                <a href="index.html">
+                                    <img src="/img/logo.svg" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top_right_part header_side right">
+                        <div class="header_side_container">
+                            <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
+                            <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
+                            <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
+                            <div class="gt3_header_builder_component gt3_header_builder_text_component">
+                                <div class="gt3_header_builder_component gt3_header_builder_empty_space_component">
                                 </div>
+                                <div class="gt3_header_builder_component gt3_header_builder_empty_space_component">
+                                </div>
+                            </div>
+                            <div class="gt3_header_builder_component gt3_header_builder_text_component">
+                                <p class="header_phone">+ 7 921 006 8288</p>
+                            </div>
+                            <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
+                            <div class="gt3_header_builder_component gt3_header_builder_text_component">
+                                <p class="header_icon img-icon"><img src="img/icon_watch.png" alt=""></p>
+                                <p class="header_text">ПН-ПТ: 08:00 – 19:00<br>СБ-ВС: выходной</p>
+                            </div>
+                            <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
+                            <div class="gt3_header_builder_component gt3_header_builder_text_component">
+                                <p class="header_icon img-icon"><img src="img/icon_location.png" alt=""></p>
+                                <p class="header_text">г. Калининград,<br>ул. Ростовская, д.5-7, оф.9</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="main-menu-area bg-body" id="sticker">
-                    <div class="container">
-                        <div class="row d-md-flex align-items-md-center">
-                            <div class="col-lg-2 col-md-2">
-                                <div class="logo-area">
-                                    <a href="/index.html"><img src="/img/logo.png" alt="logo" class="img-responsive"></a>
-                                </div>
+            </div>
+
+            <div id="sticky-wrapper" class="sticky-wrapper">
+                <div class="header-content middle_header">
+                    <div class="container nav-container">
+                        <div class="logo_container">
+                            <a href="index.html">
+                                <img src="/img/logo-light.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div>
+                            <div class="logo-onscroll number_container">
+                                <p class="header_phone" style="color: white;">+ 7 921 006 8288</p>
                             </div>
-                            <div class="col-lg-10 col-md-10">
-                                <nav>
-                                    <ul>
-                                        <li><a href="/index.html">Главная</a>
+                            <div class="header-content-block">
+                                <nav class="main-nav">
+                                    <div class="main-nav__btn-wrapp">
+                                        <div class="main-nav__btn">
+                                            <div class="icon-left"></div>
+                                            <div class="icon-right"></div>
+                                        </div>
+                                    </div>
+                                    <ul class="main-nav__list sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+                                        <li class="menu-item current-menu-ancestor">
+                                            <a href="/index.html">Главная</a>
                                         </li>
-                                        <li><a href="/about.html">О компании</a></li>
-                                        <li><a href="/practice-business.html">Услуги бизнесу</a>
-                                            <ul>
+                                        <li class="menu-item">
+                                            <a href="/about.html">О компании</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="/practice-business.html" class="sf-with-ul">Услуги бизнесу</a>
+                                            <ul style="display: none;">
                                                 <li><a href="/practice-business/soprovozhdenie-i-vedenie-biznesa.html">Комплексное
                                                         сопровождение</a></li>
-                                                <li class="has-child-menu"><a href="/practice-business/razreshenie-sudebnyh-sporov.html">Разрешение
+                                                <li><a href="/practice-business/razreshenie-sudebnyh-sporov.html">Разрешение
                                                         судебных споров</a>
-                                                    <ul class="thired-level">
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/spory-v-sfere-stroitelstva.html">Строительство
+                                                    <ul style="display: none;">
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/spory-v-sfere-stroitelstva.html">Строительство
                                                                 и недвижимость</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/spory-iz-dogovorov.html">Вытекающие
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/spory-iz-dogovorov.html">Вытекающие
                                                                 из договоров</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/korporativnye-spory.html">Корпоративные</a>
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/korporativnye-spory.html">Корпоративные</a>
                                                         </li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/osparivanie-resheniy-organov.html">Оспаривание
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/osparivanie-resheniy-organov.html">Оспаривание
                                                                 решение административных
                                                                 органов</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/finansovye-i-bankovskie-spory.html">Финансовая
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/finansovye-i-bankovskie-spory.html">Финансовая
                                                                 и банковская сферы</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/bankrotsvtvo-ur-lic.html">Банкротство</a>
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov/bankrotsvtvo-ur-lic.html">Банкротство</a>
                                                         </li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov.html">Иные
-                                                                споры</a></li>
+                                                        <li><a
+                                                                href="/practice-business/razreshenie-sudebnyh-sporov.html">Иные
+                                                                споры</a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="/practice-business/sozdania-i-registracia-kompanii.html">Создание
@@ -128,20 +175,25 @@
                                                         сделок</a></li>
                                                 <li><a href="/practice-business/vzyskanie-zadolzhenosti.html">Взыскание
                                                         задолженности</a></li>
-                                                <li><a href="/practice-business/soprovozhdenie-inostrannyh-investiciy.html">Сопровождение
+                                                <li><a
+                                                        href="/practice-business/soprovozhdenie-inostrannyh-investiciy.html">Сопровождение
                                                         иностранных инвестиций</a></li>
-                                                <li><a href="/practice-business/yuridicheskie-i-buhgalterskie-konsultacii.html">Юридические
+                                                <li><a
+                                                        href="/practice-business/yuridicheskie-i-buhgalterskie-konsultacii.html">Юридические
                                                         и бухгалтерские консультации</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/practice-clients.html">Услуги частным клиентам</a>
-                                            <ul>
-                                                <li class="has-child-menu"><a href="/practice-clients/zashita-interesov-v-sude.html">Защита
+                                        <li class="menu-item">
+                                            <a href="/practice-business.html" class="sf-with-ul">Услуги частным
+                                                клиентам</a>
+                                            <ul style="display: none;">
+                                                <li><a href="/practice-clients/zashita-interesov-v-sude.html">Защита
                                                         интересов в суде</a>
-                                                    <ul class="thired-level">
+                                                    <ul style="display: none;">
                                                         <li><a href="/practice-clients/zashita-prav-dolshikov.html">Защита
                                                                 прав дольщиков</a></li>
-                                                        <li><a href="/practice-clients/spory-po-zashite-prav-potrebiteley.html">Защита
+                                                        <li><a
+                                                                href="/practice-clients/spory-po-zashite-prav-potrebiteley.html">Защита
                                                                 прав потребителей</a></li>
                                                         <li><a href="/practice-clients/zashita-interesov-v-sude.html">Иные
                                                                 споры</a></li>
@@ -151,7 +203,8 @@
                                                         автоюриста</a></li>
                                                 <li><a href="/practice-clients/semeynye-i-nasledstvennue-dela.html">Семейные
                                                         и наследственные дела</a></li>
-                                                <li><a href="/practice-clients/soprovozhdenie-sdelok-s-nedvizhimostyu.html">Сопровождение
+                                                <li><a
+                                                        href="/practice-clients/soprovozhdenie-sdelok-s-nedvizhimostyu.html">Сопровождение
                                                         сделок с недвижимостью</a>
                                                 </li>
                                                 <li><a href="/practice-clients/trudovie-spory.html">Трудовые споры</a>
@@ -160,104 +213,31 @@
                                                         и бухгалтерские консультации</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/clients.html">Клиенты</a></li>
-                                        <li><a href="/practices.html">Опыт</a></li>
+                                        <li class="menu-item">
+                                            <a href="/clients.html">Клиенты</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="/practices.html">Опыт</a>
+                                        </li>
                                         <li><a href="/contact.html">Контакты</a></li>
+                                        <!-- <span class="menu_item_line" style="width: 68px; left: 0px;"></span> -->
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Mobile Menu Area Start -->
-            <div class="mobile-menu-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mobile-menu">
-                                <nav id="dropdown">
-                                    <ul>
-                                        <li><a href="/index.html">Главная</a>
-                                        </li>
-                                        <li><a href="/about.html">О компании</a></li>
-                                        <li><a href="/practice-business.html">Услуги бизнесу</a>
-                                            <ul>
-                                                <li><a href="/practice-business/soprovozhdenie-i-vedenie-biznesa.html">Комплексное
-                                                        сопровождение</a></li>
-                                                <li class="has-child-menu"><a href="/practice-business/razreshenie-sudebnyh-sporov.html">Разрешение
-                                                        судебных споров</a>
-                                                    <ul class="thired-level">
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/spory-v-sfere-stroitelstva.html">Строительство
-                                                                и недвижимость</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/spory-iz-dogovorov.html">Вытекающие
-                                                                из договоров</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/korporativnye-spory.html">Корпоративные</a>
-                                                        </li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/osparivanie-resheniy-organov.html">Оспаривание
-                                                                решение административных
-                                                                органов</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/finansovye-i-bankovskie-spory.html">Финансовая
-                                                                и банковская сферы</a></li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov/bankrotsvtvo-ur-lic.html">Банкротство</a>
-                                                        </li>
-                                                        <li><a href="/practice-business/razreshenie-sudebnyh-sporov.html">Иные
-                                                                споры</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="/practice-business/sozdania-i-registracia-kompanii.html">Создание
-                                                        и регистрация компаний</a></li>
-                                                <li><a href="/practice-business/soprovozhdenie-sdelok.html">Сопровождение
-                                                        сделок</a></li>
-                                                <li><a href="/practice-business/vzyskanie-zadolzhenosti.html">Взыскание
-                                                        задолженности</a></li>
-                                                <li><a href="/practice-business/soprovozhdenie-inostrannyh-investiciy.html">Сопровождение
-                                                        иностранных инвестиций</a></li>
-                                                <li><a href="/practice-business/yuridicheskie-i-buhgalterskie-konsultacii.html">Юридические
-                                                        и бухгалтерские консультации</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="/practice-clients.html">Услуги частным клиентам</a>
-                                            <ul>
-                                                <li class="has-child-menu"><a href="/practice-clients/zashita-interesov-v-sude.html">Защита
-                                                        интересов в суде</a>
-                                                    <ul class="thired-level">
-                                                        <li><a href="/practice-clients/zashita-prav-dolshikov.html">Защита
-                                                                прав дольщиков</a></li>
-                                                        <li><a href="/practice-clients/spory-po-zashite-prav-potrebiteley.html">Защита
-                                                                прав потребителей</a></li>
-                                                        <li><a href="/practice-clients/zashita-interesov-v-sude.html">Иные
-                                                                споры</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="/practice-clients/uslugi-avtoyurista.html">Услуги
-                                                        автоюриста</a></li>
-                                                <li><a href="/practice-clients/semeynye-i-nasledstvennue-dela.html">Семейные
-                                                        и наследственные дела</a></li>
-                                                <li><a href="/practice-clients/soprovozhdenie-sdelok-s-nedvizhimostyu.html">Сопровождение
-                                                        сделок с недвижимостью</a>
-                                                </li>
-                                                <li><a href="/practice-clients/trudovie-spory.html">Трудовые споры</a>
-                                                </li>
-                                                <li><a href="/practice-clients/yur-i-buhgalterskie-konsultacii.html">Юридические
-                                                        и бухгалтерские консультации</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="/clients.html">Клиенты</a></li>
-                                        <li><a href="/practices.html">Опыт</a></li>
-                                        <li><a href="/contact.html">Контакты</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
+
+                        <div class="logo_container logo-onscroll">
+                            <a href="index.html">
+                                <img src="/img/logo-light.svg" alt="logo">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Mobile Menu Area End -->
         </header>
         <!-- Header Area End Here -->
         <!-- Inner Page Banner Area Start Here -->
-        <section class="inner-page-banner-area mt-150" style="background-image: url('../img/banner/inner-page-banner.jpg');">
+        <section class="inner-page-banner-area" style="background-image: url('../img/banner/inner-page-banner.jpg');">
             <div class="container">
                 <div class="breadcrumbs-area">
                     <h1>Защита интересов в судебном порядке</h1>
@@ -271,11 +251,16 @@
                 <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                         <div class="practice-details-wrapper">
-                            <img src="../img/practice-clients/sud.jpg" alt="Защита интересов в судебном порядке в Калининграде" class="img-responsive">
+                            <img src="../img/practice-clients/sud.jpg"
+                                alt="Защита интересов в судебном порядке в Калининграде" class="img-responsive">
                             <h2>Защита интересов в судебном порядке</h2>
                             <div class="box-padding bg-body mb--xs">
-                                <p>Представительство в суде является главной и самом распространенной юридической услугой, оказываемой профессиональными юристами компании Скорая юридическая помощь. В условиях относительного роста правовой грамотности населения
-                                    за последнее десятилетие мы наблюдаем рост количества судебных дел, рассматриваемых нашими судами. Сегодня граждане готовы решать свои вопросы в правовом русле, в том числе и в судебном порядке. Для практикующих юристов
+                                <p>Представительство в суде является главной и самом распространенной юридической
+                                    услугой, оказываемой профессиональными юристами компании Скорая юридическая помощь.
+                                    В условиях относительного роста правовой грамотности населения
+                                    за последнее десятилетие мы наблюдаем рост количества судебных дел, рассматриваемых
+                                    нашими судами. Сегодня граждане готовы решать свои вопросы в правовом русле, в том
+                                    числе и в судебном порядке. Для практикующих юристов
                                     это конечно же является позитивным изменением.
                                 </p>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex align-items-center">
@@ -285,40 +270,66 @@
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <div class="panel-title">
-                                                        <a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="index4.html#collapseTwo">Споры при ДТП</a>
+                                                        <a aria-expanded="false" class="accordion-toggle collapsed"
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="index4.html#collapseTwo">Споры при ДТП</a>
                                                     </div>
                                                 </div>
-                                                <div aria-expanded="false" id="collapseTwo" role="tabpanel" class="panel-collapse collapse in">
+                                                <div aria-expanded="false" id="collapseTwo" role="tabpanel"
+                                                    class="panel-collapse collapse in">
                                                     <div class="panel-body">
-                                                        <p>Многие из нас становились участниками ДТП, сталкивались с непониманием сотрудников ГИБДД, спорили, пытаясь доказать свою правоту. Однако практика показывает, что даже мелочи в спорах требуют юридической
-                                                            подкованности, одной только уверенности в своей правоте бывает недостаточно, особенно когда дело передается в суд или речь идет о значительном причинении вреда.</p>
+                                                        <p>Многие из нас становились участниками ДТП, сталкивались с
+                                                            непониманием сотрудников ГИБДД, спорили, пытаясь доказать
+                                                            свою правоту. Однако практика показывает, что даже мелочи в
+                                                            спорах требуют юридической
+                                                            подкованности, одной только уверенности в своей правоте
+                                                            бывает недостаточно, особенно когда дело передается в суд
+                                                            или речь идет о значительном причинении вреда.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <div class="panel-title">
-                                                        <a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="index4.html#collapse4">Возмещение ущерба</a>
+                                                        <a aria-expanded="false" class="accordion-toggle collapsed"
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="index4.html#collapse4">Возмещение ущерба</a>
                                                     </div>
                                                 </div>
-                                                <div aria-expanded="false" id="collapse4" role="tabpanel" class="panel-collapse collapse">
+                                                <div aria-expanded="false" id="collapse4" role="tabpanel"
+                                                    class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p>Законодательством предусмотрено, что в ситуациях когда ваше имущество или здоровье пострадало, вы имеете право на возмещение ущерба и получение компенсации от лица, причинившего ущерб, а также от
-                                                            страховой компании в случае если вы были застрахованы. Однако проблема в том, что даже с учетом вашей 100% правоты добиться получения выплаты — не такая простая задача, как может показаться,
-                                                            поэтому лучше доверить ее решение юристу по возмещению ущерба.</p>
+                                                        <p>Законодательством предусмотрено, что в ситуациях когда ваше
+                                                            имущество или здоровье пострадало, вы имеете право на
+                                                            возмещение ущерба и получение компенсации от лица,
+                                                            причинившего ущерб, а также от
+                                                            страховой компании в случае если вы были застрахованы.
+                                                            Однако проблема в том, что даже с учетом вашей 100% правоты
+                                                            добиться получения выплаты — не такая простая задача, как
+                                                            может показаться,
+                                                            поэтому лучше доверить ее решение юристу по возмещению
+                                                            ущерба.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <div class="panel-title">
-                                                        <a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="index4.html#collapse5">Трудовые споры</a>
+                                                        <a aria-expanded="false" class="accordion-toggle collapsed"
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="index4.html#collapse5">Трудовые споры</a>
                                                     </div>
                                                 </div>
-                                                <div aria-expanded="false" id="collapse5" role="tabpanel" class="panel-collapse collapse">
+                                                <div aria-expanded="false" id="collapse5" role="tabpanel"
+                                                    class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p>Каждый имеет право на труд и государство закрепило это норму в высшем законе нашего государства. Исполнение его является прямой обязанностью всех работодателей.</p>
-                                                        <p>Нередко работодатели превышают свои полномочия в области трудового законодательства, а именно напрямую нарушают Трудовой кодекс РФ. Большая часть граждан не знают свои права и не могут ими воспользоваться
+                                                        <p>Каждый имеет право на труд и государство закрепило это норму
+                                                            в высшем законе нашего государства. Исполнение его является
+                                                            прямой обязанностью всех работодателей.</p>
+                                                        <p>Нередко работодатели превышают свои полномочия в области
+                                                            трудового законодательства, а именно напрямую нарушают
+                                                            Трудовой кодекс РФ. Большая часть граждан не знают свои
+                                                            права и не могут ими воспользоваться
                                                             в полном объеме.</p>
                                                         <p>Наши опытные юристы помогут вам в разрешении трудового спора.
                                                         </p>
@@ -328,44 +339,80 @@
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <div class="panel-title">
-                                                        <a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="index4.html#collapse6">Семейные споры</a>
+                                                        <a aria-expanded="false" class="accordion-toggle collapsed"
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="index4.html#collapse6">Семейные споры</a>
                                                     </div>
                                                 </div>
-                                                <div aria-expanded="false" id="collapse6" role="tabpanel" class="panel-collapse collapse">
+                                                <div aria-expanded="false" id="collapse6" role="tabpanel"
+                                                    class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p>Семейные дела - достаточно распространенная категория гражданских дел, рассматриваемых в судах. Некоторые семейные дела довольно простые, и не требуют специальных юридических познаний для их самостоятельного
-                                                            разрешения. Другие, напротив, сложные и требуют глубокого юридического анализа и соответствующей подготовки. В семейных спорах, нормы Семейного кодекса переплетаются со многими другими Законами
-                                                            и подзаконными актами, и разобраться в них непросто, без помощи адвоката по семейным делам. Наряду с нормами права, при разрешении семейных споров, учитываются нормы нравственности, морали, общепринятые
-                                                            семейные ценности. Многие семейные споры могут быть разрешены во внесудебном порядке, а любые договоренности соответствующим образом юридически зафиксированы.</p>
+                                                        <p>Семейные дела - достаточно распространенная категория
+                                                            гражданских дел, рассматриваемых в судах. Некоторые семейные
+                                                            дела довольно простые, и не требуют специальных юридических
+                                                            познаний для их самостоятельного
+                                                            разрешения. Другие, напротив, сложные и требуют глубокого
+                                                            юридического анализа и соответствующей подготовки. В
+                                                            семейных спорах, нормы Семейного кодекса переплетаются со
+                                                            многими другими Законами
+                                                            и подзаконными актами, и разобраться в них непросто, без
+                                                            помощи адвоката по семейным делам. Наряду с нормами права,
+                                                            при разрешении семейных споров, учитываются нормы
+                                                            нравственности, морали, общепринятые
+                                                            семейные ценности. Многие семейные споры могут быть
+                                                            разрешены во внесудебном порядке, а любые договоренности
+                                                            соответствующим образом юридически зафиксированы.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <div class="panel-title">
-                                                        <a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="index4.html#collapse7">Наследственные
+                                                        <a aria-expanded="false" class="accordion-toggle collapsed"
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="index4.html#collapse7">Наследственные
                                                             споры</a>
                                                     </div>
                                                 </div>
-                                                <div aria-expanded="false" id="collapse7" role="tabpanel" class="panel-collapse collapse">
+                                                <div aria-expanded="false" id="collapse7" role="tabpanel"
+                                                    class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p>Наследственные споры - серьезная категория дел, требующая тщательного анализа, подготовки и контроля судебного процесса. В этой связи, перспектива судебного дела, в немалой степени зависит от квалификации
-                                                            юриста по наследственным спорам. Не стоит оттягивать решение наследственных споров. Гражданское законодательство лимитирует время на принятие наследства и на защиту нарушенного права. Пропуски
-                                                            процессуальных сроков могут лишить Вас права на наследство, вовлечь в длительные и волнительные судебные разбирательства, несение дополнительных расходов.</p>
+                                                        <p>Наследственные споры - серьезная категория дел, требующая
+                                                            тщательного анализа, подготовки и контроля судебного
+                                                            процесса. В этой связи, перспектива судебного дела, в
+                                                            немалой степени зависит от квалификации
+                                                            юриста по наследственным спорам. Не стоит оттягивать решение
+                                                            наследственных споров. Гражданское законодательство
+                                                            лимитирует время на принятие наследства и на защиту
+                                                            нарушенного права. Пропуски
+                                                            процессуальных сроков могут лишить Вас права на наследство,
+                                                            вовлечь в длительные и волнительные судебные
+                                                            разбирательства, несение дополнительных расходов.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <div class="panel-title">
-                                                        <a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="index4.html#collapse8">Жилищные споры</a>
+                                                        <a aria-expanded="false" class="accordion-toggle collapsed"
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="index4.html#collapse8">Жилищные споры</a>
                                                     </div>
                                                 </div>
-                                                <div aria-expanded="false" id="collapse8" role="tabpanel" class="panel-collapse collapse">
+                                                <div aria-expanded="false" id="collapse8" role="tabpanel"
+                                                    class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p>Жилищные споры - вопросы, волнующие и затрагивающие конституционные права человека - права на жилище. Тема действительно серьезная, рано или поздно касающаяся если не всех, то большинство людей.
-                                                            Тем более, что речь идет об имуществе значительной стоимости и не менее значительной важности для каждой семьи. Задача юристов по жилищным вопросам, помочь Вам разобраться в переплетениях Законов,
-                                                            постановлений как нормативного так и личного характера, регистрационных действиях, последствиях совершенных сделок и распоряжений.
+                                                        <p>Жилищные споры - вопросы, волнующие и затрагивающие
+                                                            конституционные права человека - права на жилище. Тема
+                                                            действительно серьезная, рано или поздно касающаяся если не
+                                                            всех, то большинство людей.
+                                                            Тем более, что речь идет об имуществе значительной стоимости
+                                                            и не менее значительной важности для каждой семьи. Задача
+                                                            юристов по жилищным вопросам, помочь Вам разобраться в
+                                                            переплетениях Законов,
+                                                            постановлений как нормативного так и личного характера,
+                                                            регистрационных действиях, последствиях совершенных сделок и
+                                                            распоряжений.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -373,16 +420,27 @@
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <div class="panel-title">
-                                                        <a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="index4.html#collapse9">Споры вытекающие из
+                                                        <a aria-expanded="false" class="accordion-toggle collapsed"
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="index4.html#collapse9">Споры вытекающие из
                                                             договоров</a>
                                                     </div>
                                                 </div>
-                                                <div aria-expanded="false" id="collapse9" role="tabpanel" class="panel-collapse collapse">
+                                                <div aria-expanded="false" id="collapse9" role="tabpanel"
+                                                    class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p>При возникновении любого из договорных споров в первую очередь следует провести юридическую экспертизу договора, обязательно проверить его на предмет заключения или незаключения, действительности
-                                                            или недействительности, соблюдения сроков, в т.ч. исковых и, конечно же, оценить судебную перспективу дела. </p>
-                                                        <p>Обращению в суд с иском о расторжении договора предшествует направление досудебной претензии другой стороне, нарушение данного правила будет иметь негативные юридические последствия для истца.</p>
-                                                        <p>Для правильного и быстрого решения в договорных спорах Вы можете обратиться в нашу юридическая компания <strong>«Право
+                                                        <p>При возникновении любого из договорных споров в первую
+                                                            очередь следует провести юридическую экспертизу договора,
+                                                            обязательно проверить его на предмет заключения или
+                                                            незаключения, действительности
+                                                            или недействительности, соблюдения сроков, в т.ч. исковых и,
+                                                            конечно же, оценить судебную перспективу дела. </p>
+                                                        <p>Обращению в суд с иском о расторжении договора предшествует
+                                                            направление досудебной претензии другой стороне, нарушение
+                                                            данного правила будет иметь негативные юридические
+                                                            последствия для истца.</p>
+                                                        <p>Для правильного и быстрого решения в договорных спорах Вы
+                                                            можете обратиться в нашу юридическая компания <strong>«Право
                                                                 и
                                                                 Бизнес»</strong> </p>
                                                     </div>
@@ -391,23 +449,38 @@
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <div class="panel-title">
-                                                        <a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="index4.html#collapse10">Оспаривание кадастровой
+                                                        <a aria-expanded="false" class="accordion-toggle collapsed"
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="index4.html#collapse10">Оспаривание кадастровой
                                                             стоимости</a>
                                                     </div>
                                                 </div>
-                                                <div aria-expanded="false" id="collapse10" role="tabpanel" class="panel-collapse collapse">
+                                                <div aria-expanded="false" id="collapse10" role="tabpanel"
+                                                    class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p>Существует единственный способ избежать увеличения затрат, связанных с владением недвижимостью – закон допускает возможность установления кадастровой стоимости участков и объектов в размере их рыночной
-                                                            стоимости, которая, исходя из практики юридического компания <strong>«Право и
-                                                                Бизнес»</strong>, может быть в десятки раз меньше кадастровой.
+                                                        <p>Существует единственный способ избежать увеличения затрат,
+                                                            связанных с владением недвижимостью – закон допускает
+                                                            возможность установления кадастровой стоимости участков и
+                                                            объектов в размере их рыночной
+                                                            стоимости, которая, исходя из практики юридического компания
+                                                            <strong>«Право и
+                                                                Бизнес»</strong>, может быть в десятки раз меньше
+                                                            кадастровой.
                                                         </p>
                                                         <p>
-                                                            Это непростая процедура, однако накопленный опыт позволяет сказать, что в некоторых случаях можно добиться существенного снижения затрат, но для этого следует провести серьёзную подготовку, в том числе составить предварительный отчет о стоимости участка
+                                                            Это непростая процедура, однако накопленный опыт позволяет
+                                                            сказать, что в некоторых случаях можно добиться
+                                                            существенного снижения затрат, но для этого следует провести
+                                                            серьёзную подготовку, в том числе составить предварительный
+                                                            отчет о стоимости участка
                                                             или объекта.
                                                         </p>
                                                         <p>
-                                                            Руководствуясь экономической целесообразностью, в интересах наших клиентов, юридическая компания <strong>«Право и
-                                                                Бизнес»</strong> обеспечит полное сопровождение процедуры вплоть до внесения сведений об измененной стоимости в государственный кадастр недвижимости.
+                                                            Руководствуясь экономической целесообразностью, в интересах
+                                                            наших клиентов, юридическая компания <strong>«Право и
+                                                                Бизнес»</strong> обеспечит полное сопровождение
+                                                            процедуры вплоть до внесения сведений об измененной
+                                                            стоимости в государственный кадастр недвижимости.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -415,15 +488,23 @@
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <div class="panel-title">
-                                                        <a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="index4.html#collapse11">Споры со страховыми
+                                                        <a aria-expanded="false" class="accordion-toggle collapsed"
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="index4.html#collapse11">Споры со страховыми
                                                             компаниями</a>
                                                     </div>
                                                 </div>
-                                                <div aria-expanded="false" id="collapse11" role="tabpanel" class="panel-collapse collapse">
+                                                <div aria-expanded="false" id="collapse11" role="tabpanel"
+                                                    class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p>В ситуациях, связанных с утратой здоровья, получения инвалидности, утратой близких, очень сложно взять себя в руки и заняться вопросами страхового возмещения, поскольку как правило, на это нет ни
+                                                        <p>В ситуациях, связанных с утратой здоровья, получения
+                                                            инвалидности, утратой близких, очень сложно взять себя в
+                                                            руки и заняться вопросами страхового возмещения, поскольку
+                                                            как правило, на это нет ни
                                                             сил ни времени.</p>
-                                                        <p>В своей практике мы довольно часто сталкиваемся с ситуациями, когда люди просто напросто "плюют" на возможность получения страхового возмещения по вышеназванным причинам.</p>
+                                                        <p>В своей практике мы довольно часто сталкиваемся с ситуациями,
+                                                            когда люди просто напросто "плюют" на возможность получения
+                                                            страхового возмещения по вышеназванным причинам.</p>
                                                         <p>При обращении в юридическую компанию <strong>«Право и
                                                                 мы, вплоть до получения страхового возмещения, как
                                                                 по суду, так и в досудебном порядке. </p>
@@ -453,24 +534,40 @@
                                                         <p>Благодаря грамотной работе, анализу протоколов,
                                                             административных материалов и постановлений юридическое
                                                             компания
-                                                            <strong>«Право и Бизнес»</strong> использует те самые «прорехи» в административном законодательстве и оспорить решение любых административных органов.</p>
+                                                            <strong>«Право и Бизнес»</strong> использует те самые
+                                                            «прорехи» в административном законодательстве и оспорить
+                                                            решение любых административных органов.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <div class="panel-title">
-                                                        <a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="index4.html#collapseThirty">Защита авторских и
+                                                        <a aria-expanded="false" class="accordion-toggle collapsed"
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="index4.html#collapseThirty">Защита авторских и
                                                             смежных прав</a>
                                                     </div>
                                                 </div>
-                                                <div aria-expanded="false" id="collapseThirty" role="tabpanel" class="panel-collapse collapse">
+                                                <div aria-expanded="false" id="collapseThirty" role="tabpanel"
+                                                    class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p>Нарушение авторских прав – не редкость в современном мире. Это подразумевает незаконное (без разрешения правообладателя) использование произведений искусства, науки, литературы, которые охраняются
-                                                            законодательством об интеллектуальной собственности. К числу наиболее распространённых способов нарушения относятся: плагиат, копирование, распространение. На этом список не исчерпывается, возможно
-                                                            нарушение авторских прав и другими незаконными действиями.</p>
-                                                        <p>В случае возникновения нарушений авторского права в интернете и невозможности решить проблему в досудебном порядке, лучше обратиться в юридическую компанию
-                                                            <strong>«Право и Бизнес»</strong>. Мы поможем доказать неправомерность использования, прекратить нарушение и компенсировать нанесённый ущерб.</p>
+                                                        <p>Нарушение авторских прав – не редкость в современном мире.
+                                                            Это подразумевает незаконное (без разрешения
+                                                            правообладателя) использование произведений искусства,
+                                                            науки, литературы, которые охраняются
+                                                            законодательством об интеллектуальной собственности. К числу
+                                                            наиболее распространённых способов нарушения относятся:
+                                                            плагиат, копирование, распространение. На этом список не
+                                                            исчерпывается, возможно
+                                                            нарушение авторских прав и другими незаконными действиями.
+                                                        </p>
+                                                        <p>В случае возникновения нарушений авторского права в интернете
+                                                            и невозможности решить проблему в досудебном порядке, лучше
+                                                            обратиться в юридическую компанию
+                                                            <strong>«Право и Бизнес»</strong>. Мы поможем доказать
+                                                            неправомерность использования, прекратить нарушение и
+                                                            компенсировать нанесённый ущерб.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -572,7 +669,8 @@
                                                         сделок</a></li>
                                                 <li><a href="/practice-business/vzyskanie-zadolzhenosti.html">Взыскание
                                                         задолженности</a></li>
-                                                <li><a href="/practice-business/soprovozhdenie-inostrannyh-investiciy.html">Сопровождение
+                                                <li><a
+                                                        href="/practice-business/soprovozhdenie-inostrannyh-investiciy.html">Сопровождение
                                                         иностранных инвестиций</a></li>
                                             </ul>
                                         </li>
@@ -589,7 +687,8 @@
                                                         автоюриста</a></li>
                                                 <li><a href="/practice-clients/semeynye-i-nasledstvennue-dela.html">Семейные
                                                         и наследственные дела</a></li>
-                                                <li><a href="/practice-clients/soprovozhdenie-sdelok-s-nedvizhimostyu.html">Сопровождение
+                                                <li><a
+                                                        href="/practice-clients/soprovozhdenie-sdelok-s-nedvizhimostyu.html">Сопровождение
                                                         сделок</a>
                                                 </li>
                                                 <li><a href="/practice-clients/trudovie-spory.html">Трудовые споры</a>
@@ -642,6 +741,10 @@
     <script src="../js/jquery.magnific-popup.min.js" type="text/javascript"></script>
     <!-- Custom Js -->
     <script src="../js/main.js" type="text/javascript"></script>
+    <!-- Navbar New -->
+    <script src="/js/jquery.superfish.min.js"></script>
+    <script src="/js/jquery.sticky.min.js"></script>
+    <script src="/js/header.js"></script>
 </body>
 
 </html>
