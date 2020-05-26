@@ -3890,7 +3890,6 @@ h1.text-primary, h2.text-primary, h3.text-primary, h4.text-primary, p.text-prima
     color: #333
 }
 
-
 @media (min-width:768px) {
     .mobile-menu-area {
         display: none
@@ -4327,7 +4326,6 @@ h1.text-primary, h2.text-primary, h3.text-primary, h4.text-primary, p.text-prima
     padding: 0 5px;
     display: inline-block;
     color: #c2b697;
-    background-color: #fff
 }
 
 @media only screen and (max-width:767px) {
@@ -6229,18 +6227,6 @@ ul.tab-nav-vertical .active a {
 
 .practice-box-layout5 ul li:last-child {
     margin-bottom: 0
-}
-
-.practice-details-wrapper h2 {
-    font-size: 30px;
-    background-color: #c2b697;
-    height: 90px;
-    line-height: 90px;
-    padding: 0 30px;
-    text-transform: uppercase;
-    color: #fff;
-    margin-bottom: 0;
-    display: block
 }
 
 .practice-details-wrapper h3 {
@@ -9342,6 +9328,12 @@ ul.practice-list li a:hover {
     }
 }
 
+@media only screen and (min-width:1025px) and (max-width:1324px) {
+    .process-list-box {
+        height: 322px;
+    }
+}
+
 .process-list-box span {
     position: absolute;
     right: 10px;
@@ -10358,4 +10350,9 @@ ul.post-gallery figure:hover::before {
     .map-size {
         height: 250px !important;
     }
+}
+
+::selection {
+    background-color: #c2b697;
+    color: #fff
 }

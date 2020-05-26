@@ -35,6 +35,8 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <!-- Font-awesome CSS-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Flaticon CSS-->
+    <link rel="stylesheet" href="css/font/flaticon.css">
     <!-- Owl Caousel CSS -->
     <link rel="stylesheet" href="vendor/OwlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="vendor/OwlCarousel/owl.theme.default.min.css">
@@ -96,12 +98,13 @@
                             </div>
                             <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
                             <div class="gt3_header_builder_component gt3_header_builder_text_component">
-                                <p class="header_icon img-icon"><img src="img/icon_watch.png" alt=""></p>
-                                <p class="header_text">ПН-ПТ: 08:00 – 19:00<br>СБ-ВС: выходной</p>
+                                <p class="header_icon img-icon"><img src="/img/icon_watch.png" alt=""></p>
+                                <p class="header_text">Понедельник - пятница: 08:00 – 19:00<br>Суббота - воскресенье:
+                                    выходной</p>
                             </div>
                             <div class="gt3_header_builder_component gt3_header_builder_empty_space_component"></div>
                             <div class="gt3_header_builder_component gt3_header_builder_text_component">
-                                <p class="header_icon img-icon"><img src="img/icon_location.png" alt=""></p>
+                                <p class="header_icon img-icon"><img src="/img/icon_location.png" alt=""></p>
                                 <p class="header_text">г. Калининград,<br>ул. Ростовская, д.5-7, оф.9</p>
                             </div>
                         </div>
@@ -130,14 +133,14 @@
                                         </div>
                                     </div>
                                     <ul class="main-nav__list sf-js-enabled sf-arrows" style="touch-action: pan-y;">
-                                        <li class="menu-item current-menu-ancestor">
+                                        <li class="menu-item">
                                             <a href="/index.html">Главная</a>
                                         </li>
                                         <li class="menu-item">
                                             <a href="/about.html">О компании</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="/practice-business.html" class="sf-with-ul">Услуги бизнесу</a>
+                                            <a href="/practice-business.html" class="sf-with-ul">Бизнесу</a>
                                             <ul style="display: none;">
                                                 <li><a href="/practice-business/soprovozhdenie-i-vedenie-biznesa.html">Комплексное
                                                         сопровождение</a></li>
@@ -184,7 +187,7 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="/practice-business.html" class="sf-with-ul">Услуги частным
+                                            <a href="/practice-clients.html" class="sf-with-ul">Частным
                                                 клиентам</a>
                                             <ul style="display: none;">
                                                 <li><a href="/practice-clients/zashita-interesov-v-sude.html">Защита
@@ -213,7 +216,7 @@
                                                         и бухгалтерские консультации</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item">
+                                        <li class="menu-item current-menu-ancestor">
                                             <a href="/clients.html">Клиенты</a>
                                         </li>
                                         <li class="menu-item">
@@ -251,11 +254,11 @@
                 <div class="section-title-dark">
                     <h2><span>Благодарим тех</span>, кто доверился «Право и бизнес»</h2>
                     <span><i class="fa fa-circle-o" aria-hidden="true"></i></span>
-                    <p><i>Оказываем юридические услуги в Калининграде и области по-честному.
-                            Вы точно будете знать, чего ожидать.
-                        </i>
+                    <p>Оказываем юридические услуги в Калининграде и области по-честному.
+                        Вы точно будете знать, чего ожидать.
+
                     </p>
-                    <p><strong><i>А если ПОБЕДА возможна – мы ее добьемся обязательно!</i></strong></p>
+                    <p><strong>А если победа возможна – мы ее добьемся обязательно!</strong></p>
                     <p>Знакомьтесь с рекомендательными письмами, а после свяжитесь с нами:</p>
                 </div>
             </div>
@@ -268,7 +271,8 @@
                     data-r-medium="3" data-r-medium-nav="false" data-r-medium-dots="true">
                     <div class="team-box-layout2">
                         <div>
-                            <img src="img/team/1.jpg" alt="Рогозин Илья Владимирович" class="img-responsive">
+                            <a data-toggle="modal" data-target="#myModal2"><img src="img/team/1.jpg"
+                                    alt="Рогозин Илья Владимирович" class="img-responsive"></a>
                         </div>
                         <div class="item-content mt-20">
                             <h3 class="title-medium-dark">Рогозин И.В.</h3>
@@ -278,7 +282,8 @@
                     </div>
                     <div class="team-box-layout2">
                         <div>
-                            <img src="img/team/2.jpg" alt="ООО «Новый дом»" class="img-responsive">
+                            <a data-toggle="modal" data-target="#myModal3"><img src="img/team/2.jpg"
+                                    alt="ООО «Новый дом»" class="img-responsive"></a>
                         </div>
                         <div class="item-content mt-20">
                             <h3 class="title-medium-dark">Григоренко О.Ю.</h3>
@@ -288,7 +293,8 @@
                     </div>
                     <div class="team-box-layout2">
                         <div>
-                            <img src="img/team/3.jpg" alt="АО «Комплекс»" class="img-responsive">
+                            <a data-toggle="modal" data-target="#myModal4"><img src="img/team/3.jpg" alt="АО «Комплекс»"
+                                    class="img-responsive"></a>
                         </div>
                         <div class="item-content mt-20">
                             <h3 class="title-medium-dark">Киреева Д.Д.</h3>
@@ -298,7 +304,8 @@
                     </div>
                     <div class="team-box-layout2">
                         <div>
-                            <img src="img/team/4.jpg" alt="ООО СК «ГлавРемСтрой»" class="img-responsive">
+                            <a data-toggle="modal" data-target="#myModal5"><img src="img/team/4.jpg"
+                                    alt="ООО СК «ГлавРемСтрой»" class="img-responsive"></a>
                         </div>
                         <div class="item-content mt-20">
                             <h3 class="title-medium-dark">Суворов Е.Г.</h3>
@@ -308,7 +315,8 @@
                     </div>
                     <div class="team-box-layout2">
                         <div>
-                            <img src="img/team/5.jpg" alt="ООО «Грес-Строй»" class="img-responsive">
+                            <a data-toggle="modal" data-target="#myModal6"><img src="img/team/5.jpg"
+                                    alt="ООО «Грес-Строй»" class="img-responsive"></a>
                         </div>
                         <div class="item-content mt-20">
                             <h3 class="title-medium-dark">Сычев А.К.</h3>
@@ -318,11 +326,22 @@
                     </div>
                     <div class="team-box-layout2">
                         <div>
-                            <img src="img/team/6.jpg" alt="ООО «Грес-Техника»" class="img-responsive">
+                            <a data-toggle="modal" data-target="#myModal7"><img src="img/team/6.jpg"
+                                    alt="ООО «Грес-Техника»" class="img-responsive"></a>
                         </div>
                         <div class="item-content mt-20">
                             <h3 class="title-medium-dark">Уткин А.В</h3>
                             <span>Руководитель ООО «Грес-Техника»</span>
+                        </div>
+                    </div>
+                    <div class="team-box-layout2">
+                        <div>
+                            <a data-toggle="modal" data-target="#myModal8"><img src="img/team/7.jpg"
+                                    alt="АО ИСК «Балтевромаркет»" class="img-responsive"></a>
+                        </div>
+                        <div class="item-content mt-20">
+                            <h3 class="title-medium-dark">Буйокене Зита</h3>
+                            <span>Ген. директор АО ИСК «Балтевромаркет»</span>
                         </div>
                     </div>
                 </div>
@@ -471,33 +490,176 @@
             </div>
         </footer>
         <!-- Footer Area End Here -->
+        <!-- Modal 2-->
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="section-space-contact" style="padding-top: 30px">
+                            <form id="contact-form" class="contact-form">
+                                <fieldset>
+                                    <img src="img/team/1.jpg" alt="Рогозин Илья Владимирович" class="img-responsive">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="section-space-contact" style="padding-top: 30px">
+                            <form id="contact-form" class="contact-form">
+                                <fieldset>
+                                    <img src="img/team/2.jpg" alt="Рогозин Илья Владимирович" class="img-responsive">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="section-space-contact" style="padding-top: 30px">
+                            <form id="contact-form" class="contact-form">
+                                <fieldset>
+                                    <img src="img/team/3.jpg" alt="Рогозин Илья Владимирович" class="img-responsive">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="section-space-contact" style="padding-top: 30px">
+                            <form id="contact-form" class="contact-form">
+                                <fieldset>
+                                    <img src="img/team/4.jpg" alt="Рогозин Илья Владимирович" class="img-responsive">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="section-space-contact" style="padding-top: 30px">
+                            <form id="contact-form" class="contact-form">
+                                <fieldset>
+                                    <img src="img/team/5.jpg" alt="Рогозин Илья Владимирович" class="img-responsive">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 7-->
+        <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="section-space-contact" style="padding-top: 30px">
+                            <form id="contact-form" class="contact-form">
+                                <fieldset>
+                                    <img src="img/team/6.jpg" alt="АО «Комплекс»" class="img-responsive">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 8-->
+        <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="section-space-contact" style="padding-top: 30px">
+                            <form id="contact-form" class="contact-form">
+                                <fieldset>
+                                    <img src="img/team/7.jpg" alt="АО «Комплекс»" class="img-responsive">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!--end wrapper -->
     <!-- jquery-->
-    <script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
+    <script src="js/jquery-2.2.4.min.js " type="text/javascript "></script>
     <!-- Plugins js -->
-    <script src="js/plugins.js" type="text/javascript"></script>
+    <script src="js/plugins.js " type="text/javascript "></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js " type="text/javascript "></script>
     <!-- WOW JS -->
-    <script src="js/wow.min.js"></script>
+    <script src="js/wow.min.js "></script>
     <!-- Nivo slider js -->
-    <script src="vendor/slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-    <script src="vendor/slider/home.js" type="text/javascript"></script>
+    <script src="vendor/slider/js/jquery.nivo.slider.js " type="text/javascript "></script>
+    <script src="vendor/slider/home.js " type="text/javascript "></script>
     <!-- Owl Cauosel JS -->
-    <script src="vendor/OwlCarousel/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="vendor/OwlCarousel/owl.carousel.min.js " type="text/javascript "></script>
     <!-- Meanmenu Js -->
-    <script src="js/jquery.meanmenu.min.js" type="text/javascript"></script>
+    <script src="js/jquery.meanmenu.min.js " type="text/javascript "></script>
     <!-- Srollup js -->
-    <script src="js/jquery.scrollUp.min.js" type="text/javascript"></script>
+    <script src="js/jquery.scrollUp.min.js " type="text/javascript "></script>
+    <!-- jquery.counterup js -->
+    <script src="js/jquery.counterup.min.js "></script>
+    <script src="js/waypoints.min.js "></script>
     <!-- Countdown js -->
-    <script src="js/jquery.countdown.min.js" type="text/javascript"></script>
-    <!-- Google Map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0uuKeEkPfAo7EUINYPQs3bzXn7AabgJI"></script>
-    <!-- Validator js -->
-    <script src="js/validator.min.js" type="text/javascript"></script>
+    <script src="js/jquery.countdown.min.js " type="text/javascript "></script>
+    <!-- Isotope js -->
+    <script src="js/isotope.pkgd.min.js " type="text/javascript "></script>
+    <!-- Magic Popup js -->
+    <script src="js/jquery.magnific-popup.min.js " type="text/javascript "></script>
     <!-- Custom Js -->
-    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/main.js " type="text/javascript "></script>
     <!-- Navbar New -->
     <script src="/js/jquery.superfish.min.js"></script>
     <script src="/js/jquery.sticky.min.js"></script>
