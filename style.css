@@ -1,6 +1,5 @@
 @import url(/fonts/lato/lato.css);
 @import url(/fonts/prata//prata.css);
-
 body, html {
     height: 100%;
     font-family: Lato, sans-serif;
@@ -12,7 +11,7 @@ body, html {
     vertical-align: baseline
 }
 
- h3, h4, h5, h6 {
+h3, h4, h5, h6 {
     line-height: 1.5;
     font-weight: 400;
     margin: 0 0 20px;
@@ -3316,7 +3315,7 @@ h1.text-primary, h2.text-primary, h3.text-primary, h4.text-primary, p.text-prima
 }
 
 #preloader {
-    background: url(img/preloader.gif) center center no-repeat #f1fafa;
+    background: url(./img/logo-small.svg) center center no-repeat #f1fafa;
     height: 100%;
     left: 0;
     overflow: visible;
@@ -4879,13 +4878,13 @@ h1.text-primary, h2.text-primary, h3.text-primary, h4.text-primary, p.text-prima
 
 @media only screen and (max-width:479px) {
     .about-layout2 .item-content h2 {
-        font-size: 25px
+        font-size: 14px
     }
 }
 
 @media only screen and (max-width:320px) {
     .about-layout2 .item-content h2 {
-        font-size: 22px
+        font-size: 12px
     }
 }
 
