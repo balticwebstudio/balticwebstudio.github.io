@@ -113,12 +113,7 @@
     /*-------------------------------------
      Jquery Scollup
      -------------------------------------*/
-    $.scrollUp({
-        scrollText: '<i class="fa fa-arrow-up"></i>',
-        easingType: 'linear',
-        scrollSpeed: 900,
-        animation: 'fade'
-    });
+
 
     /*-------------------------------------
      Window load function
