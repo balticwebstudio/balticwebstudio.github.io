@@ -2589,7 +2589,7 @@ h1.text-primary, h2.text-primary, h3.text-primary, h4.text-primary, p.text-prima
     background-color: #c2b697
 }
 
-.inner-page-banner-area {
+.inner-page-bn-area {
     margin-top: 50px;
     text-align: left;
     background-size: cover;
@@ -2601,36 +2601,36 @@ h1.text-primary, h2.text-primary, h3.text-primary, h4.text-primary, p.text-prima
 }
 
 @media only screen and (max-width:1199px) {
-    .inner-page-banner-area {
+    .inner-page-bn-area {
         padding: 110px 0 120px
     }
 }
 
 @media only screen and (max-width:991px) {
-    .inner-page-banner-area {
+    .inner-page-bn-area {
         padding: 100px 0 110px
     }
 }
 
 @media only screen and (max-width:767px) {
-    .inner-page-banner-area {
+    .inner-page-bn-area {
         padding: 90px 0 100px
     }
 }
 
 @media only screen and (max-width:479px) {
-    .inner-page-banner-area {
+    .inner-page-bn-area {
         padding: 80px 0 90px
     }
 }
 
 @media only screen and (max-width:320px) {
-    .inner-page-banner-area {
+    .inner-page-bn-area {
         padding: 70px 0 80px
     }
 }
 
-.inner-page-banner-area:after {
+.inner-page-bn-area:after {
     position: absolute;
     content: "";
     background: rgba(0, 0, 0, .7);
@@ -2642,24 +2642,24 @@ h1.text-primary, h2.text-primary, h3.text-primary, h4.text-primary, p.text-prima
     margin: 0 auto
 }
 
-.inner-page-banner-area .breadcrumbs-area {
+.inner-page-bn-area .breadcrumbs-area {
     position: relative;
     z-index: 1;
     text-align: center
 }
 
-.inner-page-banner-area .breadcrumbs-area h1 {
+.inner-page-bn-area .breadcrumbs-area h1 {
     text-transform: uppercase;
     font-weight: 700;
     color: #fff
 }
 
-.inner-page-banner-area .breadcrumbs-area ul li {
+.inner-page-bn-area .breadcrumbs-area ul li {
     display: inline-block;
     color: #fff
 }
 
-.inner-page-banner-area .breadcrumbs-area ul li a {
+.inner-page-bn-area .breadcrumbs-area ul li a {
     color: #c2b697;
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
@@ -2668,7 +2668,7 @@ h1.text-primary, h2.text-primary, h3.text-primary, h4.text-primary, p.text-prima
     transition: all .5s ease-out
 }
 
-.inner-page-banner-area .breadcrumbs-area ul li a:hover {
+.inner-page-bn-area .breadcrumbs-area ul li a:hover {
     color: #fff
 }
 
