@@ -197,16 +197,16 @@
                 target.html("<div class='alert alert-danger'><p>Please select all required field.</p></div>");
             } else {
                 $.ajax({
-                    url: "vendor/php/form-process.php",
+                    url: "/mail.php",
                     type: "POST",
                     data: contactForm.serialize(),
                     beforeSend: function () {
-                        target.html("<div class='alert alert-info'><p>Loading ...</p></div>");
+                        target.html("<div class='alert alert-info'><p>Загрузка ...</p></div>");
                     },
                     success: function (text) {
                         if (text === "success") {
                             _this[0].reset();
-                            target.html("<div class='alert alert-success'><p><i class='fa fa-check' aria-hidden='true'></i>Message has been sent successfully.</p></div>");
+                            target.html("<div class='alert alert-success'><p><i class='fa fa-check' aria-hidden='true'></i>Сообщение отправленно успешно</p></div>");
                         } else {
                             target.html("<div class='alert alert-danger'><p>" + text + "</p></div>");
                         }
